@@ -10,7 +10,7 @@
     <div class = "side">
      <div class = "side_top">
       <div class = "side_top_user_name">
-       <%= link_to current_user.name%>
+       <%= link_to current_user.name , edit_user_path(current_user)%>
       </div>
       <div class = "side_top_botton">
        <a href = link_to>チャットを作成する</a>
